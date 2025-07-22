@@ -8,21 +8,21 @@ JsonObject {
     property Sizes sizes: Sizes {}
 
     component Workspaces: JsonObject {
-        property int shown: 5
+        property int shown: 10
         property bool rounded: true
         property bool activeIndicator: true
-        property bool occupiedBg: false
+        property bool occupiedBg: true
         property bool showWindows: true
-        property bool activeTrail: false
-        property string label: "  "
-        property string occupiedLabel: "󰮯 "
-        property string activeLabel: "󰮯 "
+        property bool activeTrail: true
+        property string label: "   "
+        property string occupiedLabel: " 󰮯 "
+        property string activeLabel: " 󰮯 "
     }
 
     component Sizes: JsonObject {
-        property int innerHeight: 30
+        property int innerHeight: 24
         property int windowPreviewSize: 400
         property int trayMenuWidth: 300
-        property int batteryWidth: 250
+        property int batteryWidth: 300
     }
 }
