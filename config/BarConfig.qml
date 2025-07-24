@@ -15,8 +15,8 @@ JsonObject {
         property bool showWindows: true
         property bool activeTrail: true
         property string label: "   "
-        property string occupiedLabel: " 󰮯 "
-        property string activeLabel: " 󰮯 "
+        property string occupiedLabel: "󰮯 "
+        property string activeLabel: "󰮯 "
     }
 
     component Sizes: JsonObject {
